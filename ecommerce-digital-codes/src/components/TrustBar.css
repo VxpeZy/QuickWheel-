@@ -1,0 +1,47 @@
+.trust-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  background: rgba(24,26,32,0.92);
+  border-radius: 1rem;
+  padding: 1.2rem 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 12px 0 rgba(58,141,255,0.08);
+}
+.trust-bar__payments {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.trust-bar__info {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.payment-icon {
+  width: 32px;
+  height: 32px;
+  background: #23242b;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 2px 8px 0 rgba(58,141,255,0.08);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 1em;
+  padding: 0.4em 1.2em;
+  background: rgba(24,26,32,0.18);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+}
+.badge--blue {
+  background: #3A8DFF;
+  color: #fff;
+}
+.badge--purple {
+  background: #A259FF;
+  color: #fff;
+}
