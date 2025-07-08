@@ -1,0 +1,71 @@
+.hero {
+  background: linear-gradient(120deg, #3A8DFF 0%, #A259FF 100%);
+  color: #fff;
+  padding: 4rem 2rem 3rem 2rem;
+  border-radius: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 8px 32px 0 rgba(58,141,255,0.18);
+  position: relative;
+  overflow: hidden;
+}
+.hero__content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero__highlight {
+  color: #2ED573;
+  background: rgba(255,255,255,0.08);
+  border-radius: 0.5em;
+  padding: 0.1em 0.5em;
+  margin-left: 0.3em;
+}
+.hero__actions {
+  margin-top: 2rem;
+}
+.hero__cta {
+  background: #2ED573;
+  color: #181A20;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.9em 2.5em;
+  margin-right: 1.5em;
+  box-shadow: 0 4px 16px 0 rgba(46,213,115,0.18);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.hero__cta:hover {
+  background: #3A8DFF;
+  color: #fff;
+}
+.hero__badges {
+  display: inline-flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 1em;
+  padding: 0.4em 1.2em;
+  margin: 0 0.2em;
+  background: rgba(24,26,32,0.18);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+}
+.badge--green {
+  background: #2ED573;
+  color: #181A20;
+}
+.badge--blue {
+  background: #3A8DFF;
+  color: #fff;
+}
+.badge--purple {
+  background: #A259FF;
+  color: #fff;
+}

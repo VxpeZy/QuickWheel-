@@ -1,0 +1,38 @@
+.footer {
+  background: rgba(24,26,32,0.96);
+  color: #fff;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 1.2rem 1.2rem 0 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+.footer__socials {
+  margin-bottom: 1rem;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.5rem;
+  filter: drop-shadow(0 2px 8px #3A8DFF33);
+  transition: filter 0.2s;
+}
+.social-icon:hover {
+  filter: drop-shadow(0 2px 16px #A259FF99);
+}
+.footer__links {
+  margin-bottom: 1rem;
+}
+.footer__links a {
+  color: #3A8DFF;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.footer__links a:hover {
+  color: #A259FF;
+}
+.footer__copyright {
+  color: #B0B3B8;
+  font-size: 0.95rem;
+}

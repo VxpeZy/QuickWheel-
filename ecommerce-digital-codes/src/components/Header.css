@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: #181A20;
+  color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(42,48,60,0.08);
+}
+.header__logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #3A8DFF;
+}
+.header__nav a {
+  margin: 0 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.header__nav a:hover {
+  color: #A259FF;
+}
+.header__payments {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.payment-icon {
+  width: 32px;
+  height: 32px;
+  background: #23242b;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 2px 8px 0 rgba(58,141,255,0.08);
+}
+.header__support {
+  background: #A259FF;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  box-shadow: 0 2px 8px 0 rgba(162,89,255,0.18);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.header__support:hover {
+  background: #3A8DFF;
+}
